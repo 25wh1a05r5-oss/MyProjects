@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <span>💗</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>💗</span>
+        <span>💞</span>
+        <span>💓</span>
+    </div>
+
+    <!-- Main Birthday Section -->
+    <section class="hero">
+
+        <div class="content">
+
+            <p class="small-text">✨ A special day for a special person ✨</p>
+
+            <h1>Happy Birthday!</h1>
+
+            <h2>🎂 To My Amazing Person 🎂</h2>
+
+            <p class="intro">
+                Today isn't just another day...
+                it's the day someone truly wonderful came into this world. 💗
+            </p>
+
+            <button onclick="startBirthday()">
+                🎁 Open Your Surprise
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Birthday Message -->
+    <section class="message-section" id="message">
+
+        <div class="card">
+
+            <div class="cake">🎂</div>
+
+            <h2>A Little Birthday Message 💌</h2>
+
+            <p>
+                Happy Birthday to someone who makes the world
+                a little brighter just by being in it. 🌸
+            </p>
+
+            <p>
+                May your days be filled with happiness,
+                beautiful memories, laughter and lots of reasons to smile. 💕
+            </p>
+
+            <p>
+                Never forget how special you are.
+                You deserve all the wonderful things life has to offer. ✨
+            </p>
+
+            <div class="signature">
+                With lots of love 💗
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Memories Section -->
+    <section class="memories">
+
+        <h2>📸 Beautiful Memories</h2>
+
+        <p class="section-text">
+            Some moments are too special to forget.
+        </p>
+
+        <div class="gallery">
+
+            <div class="photo">
+                <img src="images/photo1.jpg" alt="Memory 1">
+                <p>✨ A beautiful memory</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo2.jpg" alt="Memory 2">
+                <p>💗 One of my favorites</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo3.jpg" alt="Memory 3">
+                <p>🌸 Forever memorable</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Gift Section -->
+    <section class="gift-section">
+
+        <h2>🎁 One More Surprise...</h2>
+
+        <div class="gift" onclick="openGift()">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-box">
+                🎁
+            </div>
+
+        </div>
+
+        <p id="giftMessage">
+            Click the gift! 💗
+        </p>
+
+    </section>
+
+
+    <!-- Final Section -->
+    <section class="final">
+
+        <div class="stars">
+            ✨ ⭐ ✨ ⭐ ✨
+        </div>
+
+        <h1>Once Again...</h1>
+
+        <h2>🎂 HAPPY BIRTHDAY! 🎂</h2>
+
+        <p>
+            May this year bring you countless reasons
+            to smile and memories you'll treasure forever. 💖
+        </p>
+
+        <div class="big-heart">
+            💗
+        </div>
+
+        <p class="footer">
+            Made with love ✨
+        </p>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
